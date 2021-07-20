@@ -1,8 +1,8 @@
 local function callback(Text)
- if Text == "Button1 text" then
-  print ("Answer")
-elseif Text == ("Button2 text") then
- print ("Answer2")
+ if Text == "OK" then
+  print ("test")
+elseif Text == ("TEST") then
+ print ("ok")
  end
 end
 
@@ -14,7 +14,7 @@ game.StarterGui:SetCore("SendNotification",  {
  Text = "Description";
  Icon = "";
  Duration = 5;
- Button1 = "Button1 text";
- Button2 = "Button2 text";
+ Button1 = "OK"
+ Button2 = "TEST"
  Callback = NotificationBindable;
 })
