@@ -1,7 +1,7 @@
 local function callback(Text)
- if Text == "a" then
+ if Text == "Button1 text" then
   print ("Answer")
-elseif Text == ("b") then
+elseif Text == ("Button2 text") then
  print ("Answer2")
  end
 end
@@ -10,11 +10,11 @@ local NotificationBindable = Instance.new("BindableFunction")
 NotificationBindable.OnInvoke = callback
 --
 game.StarterGui:SetCore("SendNotification",  {
- Title = "You cannot get rid of me.";
- Text = "Never gonna give you up";
+ Title = "Title";
+ Text = "Description";
  Icon = "";
- Duration = 10;
- Button1 = "haha";
- Button2 = "lol";
+ Duration = 5;
+ Button1 = "Button1 text";
+ Button2 = "Button2 text";
  Callback = NotificationBindable;
-}}
+})
