@@ -14,7 +14,7 @@ game.StarterGui:SetCore("SendNotification",  {
  Text = "Never gonna give you up";
  Icon = "";
  Duration = 10;
- Button1 = "close";
- Button2 = "jk you cant close this";
+ Button1 = "haha";
+ Button2 = "lol";
  Callback = NotificationBindable;
 }}
