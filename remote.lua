@@ -6,7 +6,7 @@ NotificationBindable.OnInvoke = callback
  
 game.StarterGui:SetCore("SendNotification", {
     Title = "What did you expect?";
-    Text = "This does literally NOTHING, well expect displaying text.";
+    Text = "This does literally NOTHING, well expect displaying text. Oh, btw this stays here forver. That means- Never gonna give you up~ never gonna let you down~ Too bad. lol";
     Duration = "5";
     Callback = NotificationBindable;
 })
